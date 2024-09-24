@@ -89,7 +89,7 @@ export const mockAccounts: Account[] = [
     transaction_history: [
       {
         transaction_id: 'TXN001',
-        dateTime: 'August 20 2024',
+        dateTime: 'May 20 2024',
         description: 'Credit',
         status: 'Success',
         amount_usd: 11000.0,
@@ -97,7 +97,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: 'TXN002',
-        dateTime: 'August 20 2024',
+        dateTime: 'May 1 2024',
         description: 'Credit',
         status: 'Success',
         amount_usd: 400000.0,
@@ -105,7 +105,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: 'TXN003',
-        dateTime: 'August 19 2024',
+        dateTime: 'April 19 2024',
         description: 'Debit',
         status: 'Success',
         amount_usd: -2316.0,
@@ -113,7 +113,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: 'TXN004',
-        dateTime: 'August 19 2024',
+        dateTime: 'April 11 2024',
         description: 'Debit',
         status: 'Success',
         amount_usd: -3302.0,
@@ -121,7 +121,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: 'TXN005',
-        dateTime: 'August 10 2024',
+        dateTime: 'March 6 2024',
         description: 'Withdrawal',
         status: 'Success',
         amount_usd: -4000.0,
@@ -129,7 +129,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: 'TXN006',
-        dateTime: 'August 5 2024',
+        dateTime: 'March 5 2024',
         description: 'Withdrawal',
         status: 'Success',
         amount_usd: -5000.0,
@@ -137,7 +137,7 @@ export const mockAccounts: Account[] = [
       },
       {
         transaction_id: 'TXN007',
-        dateTime: 'August 5 2024',
+        dateTime: 'March 5 2024',
         description: 'Credit',
         status: 'Success',
         amount_usd: 30000.0,
