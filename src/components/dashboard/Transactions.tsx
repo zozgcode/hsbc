@@ -54,7 +54,7 @@ export default function Transactions() {
                 <span className={`text-[10px] font-medium ${transaction.status === "Pending" ? "text-yellow-600" : "text-green-600"}`}>{transaction.status}</span>
               </div>
             </div>
-          ))}
+          ))} 
         </div>
       </div>
     </div>

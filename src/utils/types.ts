@@ -5,7 +5,7 @@ export interface Account {
     firstName?: string;
     lastName?: string;
     mobileNumber?: string;
-    nickName?: string;
+    profileImg?: string;
     gender?: string;
     email?: string;
     jointNames: string;

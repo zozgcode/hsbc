@@ -142,7 +142,96 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: 30000.0,
         account_no: '****9876'
+      }
+    ]
+  },
+  {
+    account_id: 'ACC003',
+    holder: {
+      firstName: 'Hannah',
+      lastName: 'Brooks',
+      mobileNumber: '+1-603-349-0797',
+      email: 'brookswebb222@gmail.com',
+      jointNames: '',
+      profileImg: 'https://i.imgur.com/ykds3Y9.pngz',
+      username: 'Hbrooks222',
+      password: 'Richcarpenter2010'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      balance_usd: 0.96
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        transaction_id: 'TXN001',
+        dateTime: 'September 1 2024',
+        description: 'Credit from COINBASE WALLET',
+        status: 'Pending',
+        amount_usd: 965000.0,
+        account_no: '****2323'
       },
+      {
+        transaction_id: 'TXN002',
+        dateTime: 'August 21 2024',
+        description: 'Debit from BOOKING.COM',
+        status: 'Success',
+        amount_usd: -1302.0,
+        account_no: '****0937'
+      },
+      {
+        transaction_id: 'TXN003',
+        dateTime: 'August 19 2024',
+        description: 'Debit from UNITED AIRLINE',
+        status: 'Success',
+        amount_usd: -970.0,
+        account_no: '****1156'
+      },
+      {
+        transaction_id: 'TXN004',
+        dateTime: 'August 16 2024',
+        description: 'Debit from WALMART',
+        status: 'Success',
+        amount_usd: -375.52,
+        account_no: '****1156'
+      },
+      {
+        transaction_id: 'TXN005',
+        dateTime: 'August 10 2024',
+        description: 'Withdrawal',
+        status: 'Success',
+        amount_usd: -4000.0,
+        account_no: '****1156'
+      },
+      {
+        transaction_id: 'TXN006',
+        dateTime: 'August 5 2023',
+        description: 'Withdrawal',
+        status: 'Success',
+        amount_usd: -7000.0,
+        account_no: '****1156'
+      },
+      {
+        transaction_id: 'TXN007',
+        dateTime: 'August 5 2023',
+        description: 'Credit from INVESTMENT',
+        status: 'Success',
+        amount_usd: 15000.0,
+        account_no: '****9876'
+      },
+      {
+        transaction_id: 'TXN007',
+        dateTime: 'August 1 2023',
+        description: 'Account Open',
+        status: 'Success',
+        amount_usd: 100.0,
+        account_no: '****9876'
+      }
     ]
   }
 ];
